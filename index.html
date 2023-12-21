@@ -8,7 +8,7 @@
     <title>Tomoyuki Yokogawa</title>
     <link rel="stylesheet" href="css/theme.css" />
     <link rel="stylesheet" href="css/theme_extra.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
         <link href="http://fonts.googleapis.com/earlyaccess/notosansjp.css" rel="stylesheet" />
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap" rel="stylesheet" />
@@ -22,12 +22,11 @@
         var mkdocs_page_url = null;
       </script>
     
-    <script src="js/jquery-3.6.0.min.js" defer></script>
     <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
     <![endif]-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-      <script>hljs.initHighlightingOnLoad();</script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
 </head>
 
 <body class="wy-body-for-nav" role="document">
@@ -39,7 +38,7 @@
           <a href="." class="icon icon-home"> Tomoyuki Yokogawa
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
-      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -116,8 +115,8 @@
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-      <li>Home</li>
+    <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Home</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -225,9 +224,10 @@
 </ul>
 <h2 id="_13"><i class="fas fa-award" aria-hidden="true"></i> 受賞</h2>
 <ul>
-<li>2019年 電子情報通信学会情報システムソサエティ活動功労賞</li>
-<li>2020年 PROMISE2020 Best Paper Award</li>
-<li>2022年 ソフトウェア工学研究会卓越研究賞</li>
+<li>2019年 <a href="https://www.ieice.org/iss/iss_r/jpn/award/koro_reiwa01/">電子情報通信学会情報システムソサエティ活動功労賞</a></li>
+<li>2020年 <a href="https://promiseconf.github.io/2020/">PROMISE2020</a> Best Paper Award</li>
+<li>2022年 <a href="https://www.sigse.jp/award.html#takuetsu2022">ソフトウェア工学研究会卓越研究賞</a></li>
+<li>2023年 <a href="https://www.sigse.jp/award.html#takuetsu2023">ソフトウェア工学研究会卓越研究賞</a></li>
 </ul>
 <h2 id="_14"><i class="fas fa-donate" aria-hidden="true"></i> 外部資金獲得</h2>
 <h3 id="_15">科学研究費補助金</h3>
@@ -281,21 +281,22 @@
     
   </span>
 </div>
-    <script>var base_url = '.';</script>
-    <script src="js/theme_extra.js" defer></script>
-    <script src="js/theme.js" defer></script>
-      <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" defer></script>
-      <script src="search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
             SphinxRtdTheme.Navigation.enable(true);
-        };
+        });
     </script>
 
 </body>
 </html>
 
 <!--
-MkDocs version : 1.4.2
-Build Date UTC : 2023-08-10 01:29:04.156471+00:00
+MkDocs version : 1.5.3
+Build Date UTC : 2023-12-21 13:59:50.257782+00:00
 -->
